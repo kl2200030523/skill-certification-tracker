@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `https://www.shutterstock.com/image-photo/elearning-technology-webinar-online-education-600nw-2324449597.jpg` }}
+      style={{ backgroundImage: url(`https://www.shutterstock.com/image-photo/elearning-technology-webinar-online-education-600nw-2324449597.jpg`) }}
     >
       <div className="bg-white bg-opacity-80 backdrop-blur-sm p-10 rounded-lg text-center max-w-4xl w-full shadow-lg">
         <h1 className="text-5xl font-bold mb-4 text-gray-900 animate-fade-in">Welcome to Certification Tracker</h1>
