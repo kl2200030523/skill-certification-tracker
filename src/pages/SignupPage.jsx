@@ -14,7 +14,7 @@ function SignupPage() {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url('/src/assets/background.png')` }}
+      style={{  backgroundImage: `url("https://www.shutterstock.com/image-photo/elearning-technology-webinar-online-education-600nw-2324449597.jpg")` }}
     >
       <div className="p-10 bg-white bg-opacity-80 shadow-lg rounded-xl w-full max-w-md">
         <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">Signup</h2>
